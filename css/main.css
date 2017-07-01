@@ -1,0 +1,27 @@
+.header{
+  width: 75%;
+  background-color: #000;
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+form{
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#searchBar{
+  width: 45%;
+  height: 20px;
+  color: #ada9a8;
+  padding: 0 10px;
+}
+
+.buttonHolder{
+  margin-top: 15px;
+}
