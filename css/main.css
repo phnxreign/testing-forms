@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+textarea:focus, input:focus{
+  outline: none;
+}
+
 .header{
   width: 100%;
-  background-color: #000;
-  color: #fff;
+  background-color: #e5e5e5;
+  color: #000;
   margin: 0 auto;
   text-align: center;
   padding-top: 20px;
@@ -19,23 +23,43 @@
   background-color: pink;
 }
 
-form{
+.form-wrapper{
   width: 100%;
   margin: 0 auto;
   padding: 15px 0;
   text-align: center;
-  background-color: gray;
+}
+
+.form-wrapper input{
+  background-color: #fff;
+  border: 2px solid #e5e5e5;
+  border-radius: 5px;
 }
 
 #searchBar{
   width: 45%;
-  height: 20px;
+  height: 30px;
   color: #ada9a8;
   padding: 0 10px;
 }
 
+#searchBar:focus{
+  border-color: purple;
+}
+
 .buttonHolder{
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+#search-submit,#dont-search-submit{
+  border: none;
+  margin: 0 5px;
+  padding: 5px;
+  color: #888787;
+}
+
+#search-submit:visited, #dont-search-submit:visited{
+  border-color: purple;
 }
 
 #next{
